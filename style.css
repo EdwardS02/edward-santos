@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
 header {
     height: 80vh;
     background-image: url("./img/1080-hero.png");
@@ -12,6 +16,23 @@ header {
     background-position: center;
 }
 
+.nav-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-items li {
+    color: white;
+    font-size: 1.5rem;
+    
+}
+/* Add animation with a bottom order when hovered */
+.nav-items a {
+    text-decoration: none;
+    padding: 1rem 3rem;
+}
+/* Change font-family */
 .title {
     display: flex;
     flex-direction: column;
@@ -22,7 +43,5 @@ header {
     font-size: 2rem;
 }
 
-body {
-    background-color: black;
-}
+
 
