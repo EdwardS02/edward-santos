@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+body, main {
     background-color: black;
 }
 
@@ -43,5 +43,27 @@ header {
     font-size: 2rem;
 }
 
+#about {
+    color: white;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.pfp {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.pfp-text {
+    width: 350px;
+    text-align: center;
+}
 
 
