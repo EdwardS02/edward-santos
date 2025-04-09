@@ -45,6 +45,7 @@ header {
 
 #about {
     color: white;
+    margin-top: 5rem;
 }
 
 .about-card {
@@ -52,18 +53,36 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    margin-top: 5rem;
 }
 
 .pfp {
-    height: 200px;
-    width: 200px;
+    height: 250px;
     border-radius: 50%;
 }
 
 .pfp-text {
     width: 350px;
     text-align: center;
+    font-size: 1.1rem;
 }
 
+#skills {
+    margin-top: 5rem;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill-container img {
+    height: 200px;
+}
+
+.heading-title {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
 
