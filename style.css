@@ -83,3 +83,45 @@ header {
     height: 250px;
 }
 
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact p {
+    width: 400px;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 50px;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 3rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+} 
+
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+}
+
