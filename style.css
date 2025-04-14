@@ -29,6 +29,7 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 /* Add animation with a bottom order when hovered */
+/* done^ */
 .nav-links {
     text-decoration: none;
     padding: 1rem 3rem;
@@ -42,6 +43,7 @@ header {
     transition: .3s;
 }
 /* Change font-family */
+/* done^ */
 .title {
     display: flex;
     flex-direction: column;
@@ -86,6 +88,7 @@ h1 {
 .skill-container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .skill-container img {
@@ -164,3 +167,44 @@ footer a:hover {
     transition: .1s;
 }
 
+@media (max-width: 768px) {
+    .nav-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-items li {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+    
+    .title h2 {
+        font-size: 2rem;
+    }
+
+    .flex-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .pfp {
+        height: 200px;
+    }
+
+    .skill-container img {
+        height: 150px;
+    }
+    
+    .heading-title {
+        font-size: 2rem;
+    }
+    
+    .project-img {
+        height: 200px;
+    }
+}
