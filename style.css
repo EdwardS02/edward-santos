@@ -29,9 +29,17 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 /* Add animation with a bottom order when hovered */
-.nav-items a {
+.nav-links {
     text-decoration: none;
     padding: 1rem 3rem;
+    border-bottom: 1px solid transparent;
+    transition: .4s;
+}
+
+.nav-links:hover {
+    padding: 1.3rem 3rem;
+    border-bottom: 1px solid white;
+    transition: .3s;
 }
 /* Change font-family */
 .title {
@@ -118,6 +126,15 @@ h1 {
     border-radius: 50px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    border: 3px solid white;
+    transition: .3s;
+}
+
+#contact a:hover {
+    padding: 1rem 2.5rem;
+    background-color: black;
+    color: white;
+    transition: .3s;
 }
 
 footer {
@@ -139,5 +156,11 @@ footer a {
     text-decoration: none;
     color: black;
     padding: 1rem 2rem;
+    font-weight: 400;
+}
+
+footer a:hover {
+    font-weight: 600;
+    transition: .1s;
 }
 
