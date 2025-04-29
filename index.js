@@ -1,1 +1,2 @@
-alert("Welcome!");
+var welcome = "Hi, welcome!";
+alert(welcome);
