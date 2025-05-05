@@ -1,3 +1,3 @@
-var myName = "Edward";
+var message = "Hello there, ";
 var yourName = prompt("What is your name?");
-alert("Welcome " + yourName + "!");
+alert(message + yourName + "!");
