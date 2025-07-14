@@ -10,14 +10,10 @@ alert// var user = prompt("Username: ");
 // var dogAge = prompt("How old is your dog?");
 // var humanAge = ((dogAge - 2) * 4) + 21;
 // alert("Your dog is " + humanAge + " years old in human years");
-window.alert("Let's see how much time you have until you are 90 years old.");
-var age = window.prompt("What's your age?");
+
 function lifeInWeeks(age) {   
   var daysLeft = (90 * 365) - (age * 365);
   var weeksLeft = (90 * 52) - (age * 52);
   var monthsLeft = (90 * 12) - (age * 12);
-  
-  window.alert("You have " + daysLeft + " days, " + weeksLeft + " weeks, and " + monthsLeft + " months left.");
+  console.log("You have " + daysLeft + " days, " + weeksLeft + " weeks, and " + monthsLeft + " months left.");
 }
-
-lifeInWeeks(age);
