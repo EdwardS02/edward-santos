@@ -18,17 +18,24 @@
 //   console.log("You have " + daysLeft + " days, " + weeksLeft + " weeks, and " + monthsLeft + " months left.");
 // }
 
-function bmiCalculator(weight, height) {
-  var bmi = Math.round(weight / (height ** 2));
-  if (bmi < 18.5) {
-    return "Your bmi is " + bmi + " you are underweight.";
-  } else if (bmi < 24.9)  {
-      return "Your bmi is " + bmi + " you are normal weight.";
-  } else if (bmi < 29.9) {
-      return "Your bmi is " + bmi + " you are overweight.";
-  } else if (bmi < 34.9) {
-      return "Your bmi is " + bmi + " you are obese.";
-  } else {
-      return "Your bmi is " + bmi + " you are extremely obese.";
-  }
- }
+// function bmiCalculator(weight, height) {
+//   var bmi = Math.round(weight / (height ** 2));
+//   if (bmi < 18.5) {
+//     return "Your bmi is " + bmi + " you are underweight.";
+//   } else if (bmi < 24.9)  {
+//       return "Your bmi is " + bmi + " you are normal weight.";
+//   } else if (bmi < 29.9) {
+//       return "Your bmi is " + bmi + " you are overweight.";
+//   } else if (bmi < 34.9) {
+//       return "Your bmi is " + bmi + " you are obese.";
+//   } else {
+//       return "Your bmi is " + bmi + " you are extremely obese.";
+//   }
+//  
+
+var yourName = window.prompt("What is your name?");
+var crushName = window.prompt("What is your crush's name?");
+var randomNumber = Math.random();
+randomNumber = randomNumber * 100;
+randomNumber = Math.floor(randomNumber) + 1;
+window.alert(yourName + " and " + crushName + " have a " + randomNumber + "% probability of falling in love.");
