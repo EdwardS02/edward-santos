@@ -35,7 +35,13 @@
 
 var yourName = window.prompt("What is your name?");
 var crushName = window.prompt("What is your crush's name?");
-var randomNumber = Math.random();
-randomNumber = randomNumber * 100;
+var randomNumber = Math.random() * 100;
 randomNumber = Math.floor(randomNumber) + 1;
-window.alert(yourName + " and " + crushName + " have a " + randomNumber + "% probability of falling in love.");
+if (randomNumber > 70) {
+    alert(yourName + " and " + crushName + " have a " + randomNumber + "% probability of falling in love. You are meant to be.")
+} else if (randomNumber < 30) {
+    alert(yourName + " and " + crushName + " have a " + randomNumber + "% probability of falling in love. You are not compatible.")
+} else {
+    alert(yourName + " and " + crushName + " have a " + randomNumber + "% probability of falling in love.");
+};
+
