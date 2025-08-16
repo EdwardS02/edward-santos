@@ -57,16 +57,27 @@
 
 // ----------------------------------------------------------
 
-function isLeap(year) {
-    if (year % 4 != 0 ) {
-        return "Not leap year.";
-    } else if (year % 100 != 0) {
-        return "Leap year.";
-    } else if (year % 400 === 0) {
-        return "Leap year.";
-    } else {
-        return "Not leap year.";
-    }
-}
+// function isLeap(year) {
+//     if (year % 4 != 0 ) {
+//         return "Not leap year.";
+//     } else if (year % 100 != 0) {
+//         return "Leap year.";
+//     } else if (year % 400 === 0) {
+//         return "Leap year.";
+//     } else {
+//         return "Not leap year.";
+//     }
+// }
 
+// ----------------------------------------------------------
+
+var guestList = ["Angela", "Jack", "Pam", "Allinson", "Edward", "Jotaro"];
+
+var guest = prompt("What is your name?");
+
+if (guestList.includes(guest)) {
+    alert("Welcome");
+} else {
+    alert("Sorry, maybe next time...");
+}
 
