@@ -71,13 +71,44 @@
 
 // ----------------------------------------------------------
 
-var guestList = ["Angela", "Jack", "Pam", "Allinson", "Edward", "Jotaro"];
+// var guestList = ["Angela", "Jack", "Pam", "Allinson", "Edward", "Jotaro"];
 
-var guest = prompt("What is your name?");
+// var guest = prompt("What is your name?");
 
-if (guestList.includes(guest)) {
-    alert("Welcome");
-} else {
-    alert("Sorry, maybe next time...");
+// if (guestList.includes(guest)) {
+//     alert("Welcome");
+// } else {
+//     alert("Sorry, maybe next time...");
+// }
+
+// var output = [];
+// var count = 1;
+// function fizzBuzz() {
+    
+//     if (count % 3 === 0 && count % 5 === 0) {
+//         output.push("FizzBuzz");
+//     } else if (count % 3 === 0) {
+//         output.push("Fizz");
+//     } else if (count % 5 === 0) {
+//         output.push("Buzz");
+//     } else {
+//         output.push(count);
+//     }
+//     count++;
+//     // count = count + 1;
+//     console.log(output);
+    
+   
+// }
+
+function whosPaying(names) {
+    var list = names;
+    
+    var randomName = Math.floor(Math.random() * list.length);
+    
+    // console.log(list);
+    return list[randomName] + " is going to buy lunch today!";
+    // output is only the first name, gotta check why later
+    // never give up, it was rather a simple solution but just need to solve the problem one step at a time
 }
 
