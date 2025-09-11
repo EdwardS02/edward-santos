@@ -121,24 +121,31 @@
 
 // -----------------------------------------------------------
 
-var count = 99;
+// var count = 99;
 
-function beer() {
+// function beer() {
 
-    while (count <= 99 && count >= 3) {
-        console.log(count + " bottles of beer on the wall, " + count-- + " bottles of beer. Take one down and pass it around, " + count + " bottles of beer on the wall.");
+//     while (count <= 99 && count >= 3) {
+//         console.log(count + " bottles of beer on the wall, " + count-- + " bottles of beer. Take one down and pass it around, " + count + " bottles of beer on the wall.");
+//     }
+
+//     if (count = 2) {
+//         console.log(count + " bottles of beer on the wall, " + count-- + " bottles of beer. Take one down and pass it around, " + count + " bottle of beer on the wall.");
+//     } 
+    
+//     if (count = 1) {
+//         console.log(count + " bottle of beer on the wall, " + count-- + " bottle of beer. Take one down and pass it around, no more bottles of beer on the wall.");
+//     }
+    
+//     console.log("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.")
+    
+//     // console.log(count-- + ", " + (count));
+// }
+
+// -----------------------------------------------
+
+function loop100(number) {
+    for(var count = number; count <= 100; count++) {
+        console.log(count);
     }
-
-    if (count = 2) {
-        console.log(count + " bottles of beer on the wall, " + count-- + " bottles of beer. Take one down and pass it around, " + count + " bottle of beer on the wall.");
-    } 
-    
-    if (count = 1) {
-        console.log(count + " bottle of beer on the wall, " + count-- + " bottle of beer. Take one down and pass it around, no more bottles of beer on the wall.");
-    }
-    
-    console.log("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.")
-    
-    // console.log(count-- + ", " + (count));
 }
-
