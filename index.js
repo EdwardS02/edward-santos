@@ -81,9 +81,14 @@
 //     alert("Sorry, maybe next time...");
 // }
 
+// ----------------------------------------------------------
+
 // var output = [];
 // var count = 1;
 // function fizzBuzz() {
+    
+//     while (count <= 100) {
+        
     
 //     if (count % 3 === 0 && count % 5 === 0) {
 //         output.push("FizzBuzz");
@@ -95,20 +100,45 @@
 //         output.push(count);
 //     }
 //     count++;
+//     }
 //     // count = count + 1;
 //     console.log(output);
     
-   
 // }
 
-function whosPaying(names) {
-    var list = names;
+// ---------------------------------------------------------
+
+// function whosPaying(names) {
+//     var list = names;
     
-    var randomName = Math.floor(Math.random() * list.length);
+//     var randomName = Math.floor(Math.random() * list.length);
     
-    // console.log(list);
-    return list[randomName] + " is going to buy lunch today!";
-    // output is only the first name, gotta check why later
-    // never give up, it was rather a simple solution but just need to solve the problem one step at a time
+//     // console.log(list);
+//     return list[randomName] + " is going to buy lunch today!";
+//     // output is only the first name, gotta check why later
+//     // never give up, it was rather a simple solution but just need to solve the problem one step at a time
+// }
+
+// -----------------------------------------------------------
+
+var count = 99;
+
+function beer() {
+
+    while (count <= 99 && count >= 3) {
+        console.log(count + " bottles of beer on the wall, " + count-- + " bottles of beer. Take one down and pass it around, " + count + " bottles of beer on the wall.");
+    }
+
+    if (count = 2) {
+        console.log(count + " bottles of beer on the wall, " + count-- + " bottles of beer. Take one down and pass it around, " + count + " bottle of beer on the wall.");
+    } 
+    
+    if (count = 1) {
+        console.log(count + " bottle of beer on the wall, " + count-- + " bottle of beer. Take one down and pass it around, no more bottles of beer on the wall.");
+    }
+    
+    console.log("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.")
+    
+    // console.log(count-- + ", " + (count));
 }
 
