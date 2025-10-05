@@ -144,8 +144,28 @@
 
 // -----------------------------------------------
 
-function loop100(number) {
-    for(var count = number; count <= 100; count++) {
-        console.log(count);
+// function loop100(number) {
+//     for(var count = number; count <= 100; count++) {
+//         console.log(count);
+//     }
+// }
+
+// ------------------------------------------------------
+
+function fibonacciGenerator (n) {
+    var list = [];
+   
+    if (n === 1) {
+        list = [0];
+    } else if (n === 2) {
+        list = [0,1];
+    } else {
+        list = [0,1];
+        for (var i = 2; i < n; i++) {
+            list.push(list[list.length - 1] + list[list.length - 2]);
+        }
     }
+    return list;
 }
+
+
